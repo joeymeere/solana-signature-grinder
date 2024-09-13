@@ -4,8 +4,16 @@ A script that utilizes Web3.js 2.0 to grind vanity transaction signatures. Inspi
 
 ## Usage
 
+Install dependencies:
+
 ```bash
 npm install
+```
+
+Run a Solana test validator:
+
+```bash
+solana-test-validator
 ```
 
 Go to `src/index.ts` and change the `prefix` variable set at the bottom to your desired vanity prefix. Then run `npm test` to start the script.
