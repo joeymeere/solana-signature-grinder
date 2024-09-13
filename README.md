@@ -1,6 +1,6 @@
 # Solana Signature Grinder
 
-A script that utilizes Web3.js 2.0 to grind vanity transaction signatures. Inspired by the MEV guy on Ethereum.
+A simple Node & TS script that utilizes Web3.js 2.0 to grind vanity transaction signatures. Inspired by the MEV guy on Ethereum.
 
 ## Usage
 
