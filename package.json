@@ -1,0 +1,24 @@
+{
+  "name": "solana-signature-grinder",
+  "description": "Grind a vanity signature for a Solana transaction.",
+  "author": "Joey Meere",
+  "license": "MIT",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "test": "tsx src/index.ts",
+    "start": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "@solana-program/compute-budget": "^0.5.1",
+    "@solana-program/system": "^0.5.1",
+    "@solana/web3.js": "^2.0.0-preview.3.20240612221755.1a540969173023a465aaa7581dc469ffbd56d270",
+    "bs58": "^6.0.0",
+    "tsx": "^4.18.0",
+    "typescript": "^5.5.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.4"
+  }
+}
